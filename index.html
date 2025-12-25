@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+
+    <title>Document</title>
+    <style>
+        body {
+            background: #442460;
+            background-image: url("./img/rabitandtortoise.svg");
+            background-repeat: no-repeat;
+            background-position: 100px 772px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+
+        .a_container {}
+
+        header {
+            height: 120px;
+
+        }
+
+        main {
+            height: 900px;
+
+        }
+
+        footer {
+            height: 300px;
+
+        }
+
+        .a_header_nav>li>a {
+            padding: 61px 32px 20px 32px;
+
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            color: white;
+        }
+
+        .active {
+            background: #573a70;
+            color: #ffb900 !important;
+        }
+
+        .active:hover {
+            color: #ffb900 !important;
+
+        }
+
+        .a_circle {
+            width: 30px;
+            height: 30px;
+            border-radius: 50px;
+            background: #573a70;
+        }
+
+        .myclolor {
+            color: #3e3d5f;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+
+        .myfont {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+
+        .tbdr {
+            border: 1px dashed black;
+        }
+
+        .a_panel {
+            height: 220px;
+            background: #424d83;
+        }
+
+        .a_panel:hover {
+            height: 445px;
+            background: #798ce7;
+            cursor: pointer;
+        }
+
+        .a_panel:hover >div {
+            opacity: 1;
+            visibility: visible;
+            display: block;
+           
+        }
+
+        .a_panel_c1 {
+            transition: all .2s linear;
+            height: 252px;
+            background: #5264bb;
+            opacity: 0;
+           visibility: hidden; 
+           display: none;
+           
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container a_container p-0">
+        <header>
+            <a href="#" class="float-start">
+                <img src="./img/logo.png" style="width: 110px; height: 48px; margin-top: 40px; margin-left: 50px;"
+                    alt="">
+            </a>
+
+            <ul class="nav justify-content-end  a_header_nav">
+
+
+                <li class="nav-item">
+                    <a class="nav-link  text-" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active " href="#">Service</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Our Plans</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#" aria-disabled="true">Tools &amp; Resources</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link position-relative" href="#"><span
+                            class="d-inline-block position-absolute a_circle"
+                            style="left: -10px !important; bottom: 15px !important;"></span>Nidhi Bokadiya <i
+                            class="fa-solid fa-caret-down"></i></a>
+                </li>
+            </ul>
+        </header>
+
+        <main class="text-white myfont">
+
+            <h1>welcome Nidhi Bokadiya</h1>
+            <p>How can we help you ?</p>
+            <p class="mt-5">Get start with ideal to manage your projects, clients and stakeholder </p>
+            <div class="row">
+                <div class="col ">
+                    <div class="a_panel a_panel1 rounded p-3">
+                        <div class="text-white"
+                            style="width: 50px; height: 50px; background: #3e3d5f;text-align: center;border-radius: 5px;">
+                            <img style="margin-top: 10px; color: #fff;" src="./img/launch.png">
+                        </div>
+                        <h6 class="ms-2 mt-3">Innovation Decision Hub</h6>
+                        
+                        <div class="a_panel_c1  ">
+                              A
+                        </div>
+                        <a class="text-white float-end mt-5 text-decoration-none" href="#">Learn More<i
+                                class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="a_panel a_panel2 rounded p-3" >
+                        <div class="text-white"
+                            style="width: 50px; height: 50px; background: #3e3d5f;text-align: center;border-radius: 5px;">
+                            <img class="text-white" style="margin-top: 10px; color: #fff !important;" src="./img/launch.png">
+                        </div>
+                        <h6 class="ms-2 mt-3">Innovation Decision Hub</h6>
+                        
+                        <div class="a_panel_c1  ">
+                              A
+                        </div>
+                        <a class="text-white float-end mt-5 text-decoration-none" href="#">Learn More<i
+                                class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <div class="col  ">
+                    <div class="a_panel a_panel3 rounded p-3">
+                        <div class="text-white"
+                            style="width: 50px; height: 50px; background: #3e3d5f;text-align: center;border-radius: 5px;">
+                            <img style="margin-top: 10px; color: #fff;" src="./img/launch.png">
+                        </div>
+                        <h6 class="ms-2 mt-3">Innovation Decision Hub</h6>
+                        
+                        <div class="a_panel_c1  ">
+                              A
+                        </div>
+                        <a class="text-white float-end mt-5 text-decoration-none" href="#">Learn More<i
+                                class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="a_panel a_panel4 rounded p-3">
+                        <div class="text-white"
+                            style="width: 50px; height: 50px; background: #3e3d5f;text-align: center;border-radius: 5px;">
+                            <img style="margin-top: 10px; color: #fff;" src="./img/launch.png">
+                        </div>
+                        <h6 class="ms-2 mt-3">Innovation Decision Hub</h6>
+                        
+                        <div class="a_panel_c1  ">
+                              A
+                        </div>
+                        <a class="text-white float-end mt-5 text-decoration-none" href="#">Learn More<i
+                                class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+
+        <footer>
+
+            <div class="row bg-white m-0">
+                <div class="col-5">
+                    <h5 class="myclolor mt-5">Featuers</h5>
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link myclolor " aria-current="page" href="#">Beginner Guide</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link myclolor" href="#">Tools &amp; Resources</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-7">
+                    <h5 class="myclolor mt-5">Supports</h5>
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link myclolor " aria-current="page" href="#">Help Center</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link myclolor" href="#">Submit a Ticket</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link myclolor" href="#"> Contact Us</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="row bg-white m-0">
+                <div class="col-5">
+                    <img src="./img/logo.png" style="width: 90px; height: 38px; margin-top: 40px; margin-left: 10px;"
+                        alt="">
+                    <p>Janranjani A Block I06 Nanded City ,Pune</p>
+                </div>
+                <div class="col-7">
+                    <div class="float-end  me-5">
+                        <a href=""> <i class="fa-brands fa-twitter"></i></a> <a href=""><i
+                                class="fa-brands fa-youtube"></i><a href=""></a>
+                    </div>
+                    <div class="mt-5 float-end">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link myclolor " aria-current="page" href="#">Terms of services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link myclolor" href="#">Privacy Policy </a>
+                            </li>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </footer>
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
