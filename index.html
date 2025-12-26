@@ -82,18 +82,49 @@
             height: 220px;
             background: #424d83;
         }
-
+        .a_panel1{
+            background-image: url("img/cloud.png"),url("img/cloud.png"),url("img/cloud.png");
+            background-repeat: no-repeat,no-repeat,no-repeat;
+            background-position: 50% 5% , 80% 5%, 65% 25%;
+              background-size: 30px 20px,  25px 15px;
+            
+        }
+     .a_panel2{
+            background-image: url("img/new.png"),url("img/new.png"),url("img/new.png");
+            background-repeat: no-repeat,no-repeat,no-repeat;
+            background-position: 50% 5% , 80% 5%, 65% 25%;
+             background-size: 30px 20px,  25px 15px;
+            
+        }
+            .a_panel3{
+            background-image: url("img/cloud.png"),url("img/cloud.png"),url("img/cloud.png");
+            background-repeat: no-repeat,no-repeat,no-repeat;
+            background-position: 50% 5% , 80% 5%, 65% 25%;
+              background-size: 30px 20px,  25px 15px;
+        }
+            .a_panel4{
+            background-image: url("img/new.png"),url("img/new.png"),url("img/new.png");
+            background-repeat: no-repeat,no-repeat,no-repeat;
+            background-position: 50% 5% , 80% 5%, 65% 25%;
+            background-size: 30px 20px,  25px 15px;
+            
+        }
         .a_panel:hover {
             height: 445px;
             background: #798ce7;
             cursor: pointer;
         }
+     .a_panel:hover ::after .a_panel1  {
+            height: 445px;
+            background: #798ce7;
+            cursor: pointer;
+        }
 
-        .a_panel:hover >div {
+        .a_panel:hover>div {
             opacity: 1;
             visibility: visible;
             display: block;
-           
+
         }
 
         .a_panel_c1 {
@@ -101,9 +132,9 @@
             height: 252px;
             background: #5264bb;
             opacity: 0;
-           visibility: hidden; 
-           display: none;
-           
+            visibility: hidden;
+            display: none;
+
         }
     </style>
 </head>
@@ -112,14 +143,13 @@
 
     <div class="container a_container p-0">
         <header>
+
             <a href="#" class="float-start">
-                <img src="./img/logo.png" style="width: 110px; height: 48px; margin-top: 40px; margin-left: 50px;"
+                <img src="./img/logo2.png" style="width: 110px; height: 48px; margin-top: 40px; margin-left: 50px;"
                     alt="">
             </a>
 
-            <ul class="nav justify-content-end  a_header_nav">
-
-
+            <ul class="nav justify-content-end  a_header_nav ">
                 <li class="nav-item">
                     <a class="nav-link  text-" aria-current="page" href="#">Home</a>
                 </li>
@@ -148,32 +178,33 @@
             <p class="mt-5">Get start with ideal to manage your projects, clients and stakeholder </p>
             <div class="row">
                 <div class="col ">
-                    <div class="a_panel a_panel1 rounded p-3">
+                    <div class="a_panel  a_panel1 cloude rounded p-3">
                         <div class="text-white"
                             style="width: 50px; height: 50px; background: #3e3d5f;text-align: center;border-radius: 5px;">
                             <img style="margin-top: 10px; color: #fff;" src="./img/launch.png">
                         </div>
                         <h6 class="ms-2 mt-3">Innovation Decision Hub</h6>
-                        
+
                         <div class="a_panel_c1  ">
-                              A
+                            <img class="img-fluid" src="./img/e1.png" alt="">
                         </div>
-                        <a class="text-white float-end mt-5 text-decoration-none" href="#">Learn More<i
+                        <a class="text-white float-end mt-3 text-decoration-none" href="#">Learn More<i
                                 class="fa-solid fa-chevron-right"></i></a>
                     </div>
                 </div>
                 <div class="col ">
-                    <div class="a_panel a_panel2 rounded p-3" >
+                    <div class="a_panel a_panel2 rounded p-3">
                         <div class="text-white"
                             style="width: 50px; height: 50px; background: #3e3d5f;text-align: center;border-radius: 5px;">
-                            <img class="text-white" style="margin-top: 10px; color: #fff !important;" src="./img/launch.png">
+                            <img class="text-white" style="margin-top: 10px; color: #fff !important;"
+                                src="./img/healthcare.png">
                         </div>
-                        <h6 class="ms-2 mt-3">Innovation Decision Hub</h6>
-                        
+                        <h6 class="ms-2 mt-3">MarketPlaces Vistas &amp; Decision Hub(MVDH)</h6>
+
                         <div class="a_panel_c1  ">
-                              A
+                            <img class="img-fluid" src="./img/e2.png" alt="">
                         </div>
-                        <a class="text-white float-end mt-5 text-decoration-none" href="#">Learn More<i
+                        <a class="text-white float-end mt-3 text-decoration-none" href="#">Learn More<i
                                 class="fa-solid fa-chevron-right"></i></a>
                     </div>
                 </div>
@@ -183,12 +214,12 @@
                             style="width: 50px; height: 50px; background: #3e3d5f;text-align: center;border-radius: 5px;">
                             <img style="margin-top: 10px; color: #fff;" src="./img/launch.png">
                         </div>
-                        <h6 class="ms-2 mt-3">Innovation Decision Hub</h6>
-                        
+                        <h6 class="ms-2 mt-3">SustainX Decision Hub</h6>
+
                         <div class="a_panel_c1  ">
-                              A
+                             <img class="img-fluid" src="./img/e3.png" alt="">
                         </div>
-                        <a class="text-white float-end mt-5 text-decoration-none" href="#">Learn More<i
+                        <a class="text-white float-end mt-3 text-decoration-none" href="#">Learn More<i
                                 class="fa-solid fa-chevron-right"></i></a>
                     </div>
                 </div>
@@ -196,14 +227,14 @@
                     <div class="a_panel a_panel4 rounded p-3">
                         <div class="text-white"
                             style="width: 50px; height: 50px; background: #3e3d5f;text-align: center;border-radius: 5px;">
-                            <img style="margin-top: 10px; color: #fff;" src="./img/launch.png">
+                            <img style="margin-top: 10px;" src="./img/healthcare.png">
                         </div>
-                        <h6 class="ms-2 mt-3">Innovation Decision Hub</h6>
-                        
+                        <h6 class="ms-2 mt-3">Agile Reasearch & Knowlage Hub(ARKS)</h6>
+
                         <div class="a_panel_c1  ">
-                              A
+                             <img class="img-fluid" src="./img/e4.png" alt="">
                         </div>
-                        <a class="text-white float-end mt-5 text-decoration-none" href="#">Learn More<i
+                        <a class="text-white float-end mt-3 text-decoration-none" href="#">Learn More<i
                                 class="fa-solid fa-chevron-right"></i></a>
                     </div>
                 </div>
@@ -247,7 +278,7 @@
 
             <div class="row bg-white m-0">
                 <div class="col-5">
-                    <img src="./img/logo.png" style="width: 90px; height: 38px; margin-top: 40px; margin-left: 10px;"
+                    <img src="./img/logo.svg" style="width: 90px; height: 38px; margin-top: 40px; margin-left: 10px;"
                         alt="">
                     <p>Janranjani A Block I06 Nanded City ,Pune</p>
                 </div>
